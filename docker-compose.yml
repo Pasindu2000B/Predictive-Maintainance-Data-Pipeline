@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  mqtt-broker:
+    image: eclipse-mosquitto:2.0
+    container_name: mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mqtt-broker/config:/mosquitto/config
+      - ./mqtt-broker/data:/mosquitto/data
+      - ./mqtt-broker/log:/mosquitto/log
+    restart: always
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    depends_on:
+      - zookeeper
+
+  mqtt-kafka-bridge:
+    build: ./mqtt-kafka-bridge
+    container_name: mqtt-kafka-bridge
+    depends_on:
+      - mqtt-broker
+      - kafka
+    environment:
+      MQTT_BROKER: mqtt-broker
+      MQTT_PORT: 1883
+      KAFKA_BROKER: kafka:9092
+    restart: always
+
+  influxdb:
+    image: influxdb:2.7
+    container_name: influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb-data:/var/lib/influxdb2
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: pasindupremasirilk@gmail.com
+      DOCKER_INFLUXDB_INIT_PASSWORD: Emrit123#
+      DOCKER_INFLUXDB_INIT_ORG: Ruhuna_Eng
+      DOCKER_INFLUXDB_INIT_BUCKET: Sensor
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: -pi9FAAHD7gjxwQ5DfT1PVop0K3KBVUvoXZFQlJSMP_WMH2icU645gKKYu6P8I8wpg4Flm6WO4KKziaEr4iKYg==
+    restart: unless-stopped
+
+  spark:
+    image: bitnami/spark:3.5.1
+    container_name: spark
+    depends_on:
+      - kafka
+      - influxdb
+    environment:
+      INFLUXDB_TOKEN: "-pi9FAAHD7gjxwQ5DfT1PVop0K3KBVUvoXZFQlJSMP_WMH2icU645gKKYu6P8I8wpg4Flm6WO4KKziaEr4iKYg=="
+    volumes:
+      - ./spark-app:/app
+    ports:
+      - "4040:4040"
+      - "8080:8080"
+    command: >
+      bash -c "
+      pip install influxdb-client &&
+      spark-submit
+      --master local[*]
+      --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1,com.influxdb:influxdb-client-java:6.11.0
+      /app/spark_stream.py
+      "
+    restart: unless-stopped
+
+volumes:
+  influxdb-data:
