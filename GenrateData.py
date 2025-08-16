@@ -1,55 +1,36 @@
-import paho.mqtt.client as mqtt
 import time
-import random
 import json
+import random
+import paho.mqtt.client as mqtt
 
-broker = "localhost"
-port = 1883
-topic = "sensor/dht11"
+BROKER = "localhost"  # or "mqtt-broker" if running from inside docker
+PORT = 1883
+TOPIC_STATE = "lab/esp32/esp32-lab-01/state"
+TOPIC_SENSORS = "lab/esp32/esp32-lab-01/sensors"
 
-# MQTT client setup
-client = mqtt.Client(client_id="PythonSimulator")
-client.connect(broker, port, keepalive=60)
+client = mqtt.Client()
 
-def generate_normal_value(low, high):
-    return round(random.uniform(low, high), 2)
-
-def generate_anomaly_value(low, high, anomaly_range):
-    """Randomly generate a normal or anomalous value."""
-    if random.random() < 0.1:  # 10% chance to generate anomaly
-        # Anomalous values outside normal range
-        if random.random() < 0.5:
-            return round(low - random.uniform(*anomaly_range), 2)
-        else:
-            return round(high + random.uniform(*anomaly_range), 2)
-    return generate_normal_value(low, high)
+client.connect(BROKER, PORT, 60)
+print(f"Connected to MQTT broker at {BROKER}:{PORT}")
 
 try:
     while True:
-        # Simulate sensor readings with possible anomalies
-        temperature = generate_anomaly_value(20.0, 35.0, (5, 15))
-        humidity = generate_anomaly_value(30.0, 80.0, (10, 30))
-        vibration_x = generate_anomaly_value(0.0, 1.0, (1.0, 3.0))
-        vibration_y = generate_anomaly_value(0.0, 1.0, (1.0, 3.0))
-        vibration_z = generate_anomaly_value(0.0, 1.0, (1.0, 3.0))
-        current = generate_anomaly_value(5.0, 10.0, (2.0, 5.0))
+        # Publish "online" state
+        client.publish(TOPIC_STATE, "online")
 
+        # Simulate sensor payload
         payload = {
-            "temperature": temperature,
-            "humidity": humidity,
-            "vibration": {
-                "x": vibration_x,
-                "y": vibration_y,
-                "z": vibration_z
-            },
-            "current": current
+            "dhtA": {"ok": True, "t": round(random.uniform(20, 30), 1), "h": round(random.uniform(40, 60), 1)},
+            "dhtB": {"ok": True, "t": round(random.uniform(20, 30), 1), "h": round(random.uniform(40, 60), 1)},
+            "acc":  {"x": round(random.uniform(-2, 2), 2), "y": round(random.uniform(-2, 2), 2), "z": round(random.uniform(-2, 2), 2)}
         }
 
-        client.publish(topic, json.dumps(payload))
-        print(f"Published: {payload} to topic '{topic}'")
+        client.publish(TOPIC_SENSORS, json.dumps(payload))
+        print(f"Published to {TOPIC_SENSORS}: {payload}")
 
-        time.sleep(5)
+        time.sleep(2)
 
 except KeyboardInterrupt:
-    print("Simulation stopped.")
+    print("Stopped publishing.")
+    client.publish(TOPIC_STATE, "offline")
     client.disconnect()

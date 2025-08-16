@@ -6,7 +6,7 @@ import os
 # Environment-based configuration
 MQTT_BROKER = os.getenv("MQTT_BROKER", "localhost")
 MQTT_PORT = int(os.getenv("MQTT_PORT", "1883"))
-MQTT_TOPIC = "sensor/#"
+MQTT_TOPIC = "lab/esp32/#"
 
 KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
 KAFKA_TOPIC = "iot-sensor-data"

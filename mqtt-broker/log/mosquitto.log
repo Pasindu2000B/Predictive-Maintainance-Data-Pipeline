@@ -693,3 +693,646 @@ To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
 To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
 1754895894: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
 1754895894: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754896400: Client auto-C0508BA6-27F2-8D6C-7FBB-E140F4FAB145 disconnected.
+1754896403: New connection from 172.20.0.1:52280 on port 1883.
+1754896403: New client connected from 172.20.0.1:52280 as auto-67F3B1F0-070D-B575-54DA-0D20F8DE0553 (p2, c1, k60).
+1754896427: Client auto-67F3B1F0-070D-B575-54DA-0D20F8DE0553 closed its connection.
+1754897667: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754897667: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754897667: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754897667: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754899452: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754899452: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754899452: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754899452: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754904157: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754904157: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754904157: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754904157: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754905949: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754905949: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754905949: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754905949: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754907348: Client PythonSimulator disconnected.
+1754907743: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754907743: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754907743: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754907743: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754913117: mosquitto version 2.0.22 starting
+1754913117: Config loaded from /mosquitto/config/mosquitto.conf.
+1754913117: Opening ipv4 listen socket on port 1883.
+1754913117: Opening ipv6 listen socket on port 1883.
+1754913117: Opening websockets listen socket on port 9001.
+1754913117: mosquitto version 2.0.22 running
+1754913152: mosquitto version 2.0.22 terminating
+1754913152: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754913152: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754913152: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754913152: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754913169: mosquitto version 2.0.22 starting
+1754913169: Config loaded from /mosquitto/config/mosquitto.conf.
+1754913169: Opening ipv4 listen socket on port 1883.
+1754913169: Opening ipv6 listen socket on port 1883.
+1754913169: Opening websockets listen socket on port 9001.
+1754913169: mosquitto version 2.0.22 running
+1754913208: New connection from 172.20.0.1:46774 on port 1883.
+1754913208: New client connected from 172.20.0.1:46774 as PythonSimulator (p2, c1, k60).
+1754913255: Client PythonSimulator disconnected.
+1754913267: New connection from 172.20.0.7:55573 on port 1883.
+1754913267: New client connected from 172.20.0.7:55573 as MQTTKafkaBridge (p2, c1, k60).
+1754920418: mosquitto version 2.0.22 starting
+1754920418: Config loaded from /mosquitto/config/mosquitto.conf.
+1754920418: Opening ipv4 listen socket on port 1883.
+1754920418: Opening ipv6 listen socket on port 1883.
+1754920418: Opening websockets listen socket on port 9001.
+1754920418: mosquitto version 2.0.22 running
+1754920447: mosquitto version 2.0.22 terminating
+1754920447: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754920447: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754920447: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754920447: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754923078: mosquitto version 2.0.22 starting
+1754923078: Config loaded from /mosquitto/config/mosquitto.conf.
+1754923078: Opening ipv4 listen socket on port 1883.
+1754923078: Opening ipv6 listen socket on port 1883.
+1754923078: Opening websockets listen socket on port 9001.
+1754923078: mosquitto version 2.0.22 running
+1754923093: New connection from 172.20.0.1:58074 on port 1883.
+1754923093: New client connected from 172.20.0.1:58074 as PythonSimulator (p2, c1, k60).
+1754923106: New connection from 172.20.0.6:56799 on port 1883.
+1754923106: New client connected from 172.20.0.6:56799 as MQTTKafkaBridge (p2, c1, k60).
+1754923259: Client PythonSimulator disconnected.
+1754923433: Client MQTTKafkaBridge closed its connection.
+1754923434: mosquitto version 2.0.22 terminating
+1754923434: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754923434: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754923434: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754923434: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754923449: mosquitto version 2.0.22 starting
+1754923449: Config loaded from /mosquitto/config/mosquitto.conf.
+1754923449: Opening ipv4 listen socket on port 1883.
+1754923449: Opening ipv6 listen socket on port 1883.
+1754923449: Opening websockets listen socket on port 9001.
+1754923449: mosquitto version 2.0.22 running
+1754923477: New connection from 172.21.0.6:58727 on port 1883.
+1754923477: New client connected from 172.21.0.6:58727 as MQTTKafkaBridge (p2, c1, k60).
+1754924210: Client MQTTKafkaBridge closed its connection.
+1754924211: mosquitto version 2.0.22 terminating
+1754924211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754924211: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754924211: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754924211: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754924243: mosquitto version 2.0.22 starting
+1754924243: Config loaded from /mosquitto/config/mosquitto.conf.
+1754924243: Opening ipv4 listen socket on port 1883.
+1754924243: Opening ipv6 listen socket on port 1883.
+1754924243: Opening websockets listen socket on port 9001.
+1754924243: mosquitto version 2.0.22 running
+1754924271: New connection from 172.22.0.6:38785 on port 1883.
+1754924271: New client connected from 172.22.0.6:38785 as MQTTKafkaBridge (p2, c1, k60).
+1754924365: Client MQTTKafkaBridge closed its connection.
+1754924365: mosquitto version 2.0.22 terminating
+1754924365: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754924365: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754924365: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754924365: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754924378: mosquitto version 2.0.22 starting
+1754924378: Config loaded from /mosquitto/config/mosquitto.conf.
+1754924378: Opening ipv4 listen socket on port 1883.
+1754924378: Opening ipv6 listen socket on port 1883.
+1754924378: Opening websockets listen socket on port 9001.
+1754924378: mosquitto version 2.0.22 running
+1754924402: New connection from 172.23.0.6:53977 on port 1883.
+1754924402: New client connected from 172.23.0.6:53977 as MQTTKafkaBridge (p2, c1, k60).
+1754926349: New connection from 172.23.0.1:55748 on port 1883.
+1754926349: New client connected from 172.23.0.1:55748 as PythonSimulator (p2, c1, k60).
+1754927064: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754927064: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754927064: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754927064: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754927112: Client MQTTKafkaBridge closed its connection.
+1754927112: mosquitto version 2.0.22 terminating
+1754927112: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754927112: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754927112: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754927112: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754927135: mosquitto version 2.0.22 starting
+1754927135: Config loaded from /mosquitto/config/mosquitto.conf.
+1754927135: Opening ipv4 listen socket on port 1883.
+1754927135: Opening ipv6 listen socket on port 1883.
+1754927135: Opening websockets listen socket on port 9001.
+1754927135: mosquitto version 2.0.22 running
+1754927142: New connection from 172.24.0.6:50909 on port 1883.
+1754927142: New client connected from 172.24.0.6:50909 as MQTTKafkaBridge (p2, c1, k60).
+1754927227: New connection from 172.24.0.1:37834 on port 1883.
+1754927227: New client connected from 172.24.0.1:37834 as auto-7983141C-A79B-1A74-9A8A-15CD0A00B29C (p2, c1, k60).
+1754927242: New connection from 172.24.0.1:44302 on port 1883.
+1754927242: New client connected from 172.24.0.1:44302 as PythonSimulator (p2, c1, k60).
+1754927264: Client auto-7983141C-A79B-1A74-9A8A-15CD0A00B29C disconnected.
+1754931423: Client PythonSimulator closed its connection.
+1754931425: New connection from 172.24.0.1:40084 on port 1883.
+1754931425: New client connected from 172.24.0.1:40084 as PythonSimulator (p2, c1, k60).
+1754932039: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754932039: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754932039: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754932039: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754932529: Client MQTTKafkaBridge closed its connection.
+1754932530: mosquitto version 2.0.22 terminating
+1754932530: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754932530: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754932530: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754932530: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754932558: mosquitto version 2.0.22 starting
+1754932558: Config loaded from /mosquitto/config/mosquitto.conf.
+1754932558: Opening ipv4 listen socket on port 1883.
+1754932558: Opening ipv6 listen socket on port 1883.
+1754932558: Opening websockets listen socket on port 9001.
+1754932558: mosquitto version 2.0.22 running
+1754932566: New connection from 172.25.0.6:60563 on port 1883.
+1754932566: New client connected from 172.25.0.6:60563 as MQTTKafkaBridge (p2, c1, k60).
+1754974483: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754974483: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754974483: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754974483: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754976056: New connection from 172.25.0.1:60050 on port 1883.
+1754976056: New client connected from 172.25.0.1:60050 as PythonSimulator (p2, c1, k60).
+1754976412: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754976412: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754976412: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754976412: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754977047: Client MQTTKafkaBridge closed its connection.
+1754977048: mosquitto version 2.0.22 terminating
+1754977048: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754977048: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754977048: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754977048: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754977086: mosquitto version 2.0.22 starting
+1754977086: Config loaded from /mosquitto/config/mosquitto.conf.
+1754977086: Opening ipv4 listen socket on port 1883.
+1754977086: Opening ipv6 listen socket on port 1883.
+1754977086: Opening websockets listen socket on port 9001.
+1754977086: mosquitto version 2.0.22 running
+1754977096: New connection from 172.26.0.6:35925 on port 1883.
+1754977096: New client connected from 172.26.0.6:35925 as MQTTKafkaBridge (p2, c1, k60).
+1754977253: New connection from 172.26.0.1:36668 on port 1883.
+1754977253: New client connected from 172.26.0.1:36668 as PythonSimulator (p2, c1, k60).
+1754978074: Client MQTTKafkaBridge closed its connection.
+1754978074: mosquitto version 2.0.22 terminating
+1754978074: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754978074: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754978074: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754978074: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754978092: mosquitto version 2.0.22 starting
+1754978092: Config loaded from /mosquitto/config/mosquitto.conf.
+1754978092: Opening ipv4 listen socket on port 1883.
+1754978092: Opening ipv6 listen socket on port 1883.
+1754978092: Opening websockets listen socket on port 9001.
+1754978092: mosquitto version 2.0.22 running
+1754978099: New connection from 172.27.0.6:47037 on port 1883.
+1754978099: New client connected from 172.27.0.6:47037 as MQTTKafkaBridge (p2, c1, k60).
+1754978411: Client MQTTKafkaBridge closed its connection.
+1754978412: mosquitto version 2.0.22 terminating
+1754978412: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754978412: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754978412: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754978412: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754978425: mosquitto version 2.0.22 starting
+1754978425: Config loaded from /mosquitto/config/mosquitto.conf.
+1754978425: Opening ipv4 listen socket on port 1883.
+1754978425: Opening ipv6 listen socket on port 1883.
+1754978425: Opening websockets listen socket on port 9001.
+1754978425: mosquitto version 2.0.22 running
+1754978433: New connection from 172.28.0.6:60105 on port 1883.
+1754978433: New client connected from 172.28.0.6:60105 as MQTTKafkaBridge (p2, c1, k60).
+1754980349: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754980349: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754980349: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754980349: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754983076: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754983076: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754983076: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754983076: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754985571: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754985571: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754985571: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754985571: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754989726: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754989726: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754989726: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754989726: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1754993624: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1754993624: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1754993624: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1754993624: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755010735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755010735: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755010735: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755010735: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755011098: New connection from 172.28.0.1:58368 on port 1883.
+1755011098: New client connected from 172.28.0.1:58368 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011158: New connection from 172.28.0.1:59166 on port 1883.
+1755011158: New client connected from 172.28.0.1:59166 as auto-247396B8-F7D8-D068-5E27-951031F951CC (p2, c1, k60).
+1755011164: Client auto-247396B8-F7D8-D068-5E27-951031F951CC closed its connection.
+1755011176: New connection from 172.28.0.1:60722 on port 1883.
+1755011177: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755011177: New client connected from 172.28.0.1:60722 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011181: New connection from 172.28.0.1:60724 on port 1883.
+1755011181: New client connected from 172.28.0.1:60724 as auto-03CBF51E-D202-45A7-025A-17A45A28C075 (p2, c1, k60).
+1755011207: Client auto-03CBF51E-D202-45A7-025A-17A45A28C075 disconnected.
+1755011214: New connection from 172.28.0.1:40106 on port 1883.
+1755011214: New client connected from 172.28.0.1:40106 as auto-46404B1D-44D1-86C4-F758-F93ACEA2FB05 (p2, c1, k60).
+1755011223: New connection from 172.28.0.1:56470 on port 1883.
+1755011223: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755011223: New client connected from 172.28.0.1:56470 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011274: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755011284: New connection from 172.28.0.1:38032 on port 1883.
+1755011284: New client connected from 172.28.0.1:38032 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011289: Client auto-46404B1D-44D1-86C4-F758-F93ACEA2FB05 disconnected.
+1755011294: New connection from 172.28.0.1:50386 on port 1883.
+1755011294: New client connected from 172.28.0.1:50386 as auto-01FC6CE2-3AF2-A477-359A-E48FEC162978 (p2, c1, k60).
+1755011322: New connection from 172.28.0.1:49780 on port 1883.
+1755011322: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755011322: New client connected from 172.28.0.1:49780 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011363: New connection from 172.28.0.1:58604 on port 1883.
+1755011363: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755011363: New client connected from 172.28.0.1:58604 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011390: Client auto-01FC6CE2-3AF2-A477-359A-E48FEC162978 disconnected.
+1755011394: New connection from 172.28.0.1:48682 on port 1883.
+1755011394: New client connected from 172.28.0.1:48682 as auto-5D7055D6-C16A-9E61-2FE7-D742D5C94672 (p2, c1, k60).
+1755011403: New connection from 172.28.0.1:58300 on port 1883.
+1755011403: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755011403: New client connected from 172.28.0.1:58300 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011455: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755011495: New connection from 172.28.0.1:53108 on port 1883.
+1755011495: New client connected from 172.28.0.1:53108 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011716: Client esp32-lab-01-6c1c4278 closed its connection.
+1755011716: New connection from 172.28.0.1:37808 on port 1883.
+1755011716: New client connected from 172.28.0.1:37808 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755011717: New connection from 172.28.0.1:37824 on port 1883.
+1755011717: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755011717: New client connected from 172.28.0.1:37824 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755012429: Client auto-5D7055D6-C16A-9E61-2FE7-D742D5C94672 disconnected.
+1755012440: New connection from 172.28.0.1:45494 on port 1883.
+1755012440: New client connected from 172.28.0.1:45494 as auto-1550E2DC-0D3C-BD3A-5BF2-FAAE5487A159 (p2, c1, k60).
+1755012455: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755012458: New connection from 172.28.0.1:44218 on port 1883.
+1755012458: New client connected from 172.28.0.1:44218 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755012490: New connection from 172.28.0.1:33750 on port 1883.
+1755012491: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755012491: New client connected from 172.28.0.1:33750 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755012518: Client auto-1550E2DC-0D3C-BD3A-5BF2-FAAE5487A159 disconnected.
+1755012522: New connection from 172.28.0.1:40390 on port 1883.
+1755012522: New client connected from 172.28.0.1:40390 as auto-E9CE6BDF-15FF-02DE-3489-EA5C2569A033 (p2, c1, k60).
+1755012527: New connection from 172.28.0.1:57300 on port 1883.
+1755012527: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755012527: New client connected from 172.28.0.1:57300 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755012543: New connection from 172.28.0.1:37704 on port 1883.
+1755012543: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755012543: New client connected from 172.28.0.1:37704 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755012592: New connection from 172.28.0.1:56866 on port 1883.
+1755012592: Client esp32-lab-01-6c1c4278 already connected, closing old connection.
+1755012592: New client connected from 172.28.0.1:56866 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755013206: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755013206: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755013206: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755013206: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755013930: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755014544: Client MQTTKafkaBridge closed its connection.
+1755014545: mosquitto version 2.0.22 terminating
+1755014545: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755014545: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755014545: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755014545: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755100029: mosquitto version 2.0.22 starting
+1755100029: Config loaded from /mosquitto/config/mosquitto.conf.
+1755100029: Opening ipv4 listen socket on port 1883.
+1755100029: Opening ipv6 listen socket on port 1883.
+1755100029: Opening websockets listen socket on port 9001.
+1755100029: mosquitto version 2.0.22 running
+1755100037: New connection from 172.30.0.6:41713 on port 1883.
+1755100037: New client connected from 172.30.0.6:41713 as MQTTKafkaBridge (p2, c1, k60).
+1755100133: New connection from 172.30.0.1:39414 on port 1883.
+1755100133: New client connected from 172.30.0.1:39414 as PythonSimulator (p2, c1, k60).
+1755100414: New connection from 172.30.0.1:60026 on port 1883.
+1755100414: New client connected from 172.30.0.1:60026 as auto-9FAE8D25-090E-DAFC-C360-4F256E57CDF8 (p2, c1, k60).
+1755100525: Client auto-9FAE8D25-090E-DAFC-C360-4F256E57CDF8 disconnected.
+1755101763: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755101763: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755101763: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755101763: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755103480: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755103480: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755103480: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755103480: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755105210: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755105210: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755105210: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755105210: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755137488: Client PythonSimulator closed its connection.
+1755138025: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755138025: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755138025: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755138025: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755140001: Client MQTTKafkaBridge closed its connection.
+1755140002: mosquitto version 2.0.22 terminating
+1755140002: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755140002: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755140002: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755140002: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755140083: mosquitto version 2.0.22 starting
+1755140083: Config loaded from /mosquitto/config/mosquitto.conf.
+1755140083: Opening ipv4 listen socket on port 1883.
+1755140083: Opening ipv6 listen socket on port 1883.
+1755140083: Opening websockets listen socket on port 9001.
+1755140083: mosquitto version 2.0.22 running
+1755140092: New connection from 172.31.0.6:54041 on port 1883.
+1755140092: New client connected from 172.31.0.6:54041 as MQTTKafkaBridge (p2, c1, k60).
+1755142202: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755142202: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755142202: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755142202: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755142229: New connection from 172.31.0.1:57030 on port 1883.
+1755142229: New connection from 172.31.0.1:57028 on port 1883.
+1755142229: Client <unknown> closed its connection.
+1755142229: New client connected from 172.31.0.1:57028 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755142263: New connection from 172.31.0.1:42228 on port 1883.
+1755142263: New client connected from 172.31.0.1:42228 as auto-60984354-B9E4-1410-53A0-81376A853F03 (p2, c1, k60).
+1755142270: Client auto-60984354-B9E4-1410-53A0-81376A853F03 closed its connection.
+1755143524: Client esp32-lab-01-6c1c4278 closed its connection.
+1755143524: New connection from 172.31.0.1:50454 on port 1883.
+1755143524: New client connected from 172.31.0.1:50454 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755144434: Client esp32-lab-01-6c1c4278 closed its connection.
+1755147955: mosquitto version 2.0.22 starting
+1755147955: Config loaded from /mosquitto/config/mosquitto.conf.
+1755147955: Opening ipv4 listen socket on port 1883.
+1755147955: Opening ipv6 listen socket on port 1883.
+1755147955: Opening websockets listen socket on port 9001.
+1755147955: mosquitto version 2.0.22 running
+1755148007: mosquitto version 2.0.22 terminating
+1755148007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755148007: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755148007: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755148007: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755149504: mosquitto version 2.0.22 starting
+1755149504: Config loaded from /mosquitto/config/mosquitto.conf.
+1755149504: Opening ipv4 listen socket on port 1883.
+1755149504: Opening ipv6 listen socket on port 1883.
+1755149504: Opening websockets listen socket on port 9001.
+1755149504: mosquitto version 2.0.22 running
+1755149542: New connection from 172.31.0.6:42415 on port 1883.
+1755149542: New client connected from 172.31.0.6:42415 as MQTTKafkaBridge (p2, c1, k60).
+1755150193: New connection from 172.31.0.1:34808 on port 1883.
+1755150193: New client connected from 172.31.0.1:34808 as auto-9758ED3B-6E32-F71F-BB7C-390D19EAE53F (p2, c1, k60).
+1755150240: Client auto-9758ED3B-6E32-F71F-BB7C-390D19EAE53F disconnected.
+1755150245: New connection from 172.31.0.1:49354 on port 1883.
+1755150245: New client connected from 172.31.0.1:49354 as auto-9E5A88F5-407B-E6F4-85A6-76FF82FA3332 (p2, c1, k60).
+1755150326: New connection from 172.31.0.1:60402 on port 1883.
+1755150326: New client connected from 172.31.0.1:60402 as auto-8E9BD410-B2A5-6962-AFFA-1D5FAFC1BEE3 (p2, c1, k60).
+1755150370: Client auto-8E9BD410-B2A5-6962-AFFA-1D5FAFC1BEE3 disconnected.
+1755150394: New connection from 172.31.0.1:39634 on port 1883.
+1755150394: New client connected from 172.31.0.1:39634 as auto-9D2BFEF3-F6E2-251C-89E3-057F7F917898 (p2, c1, k60).
+1755150396: Client auto-9E5A88F5-407B-E6F4-85A6-76FF82FA3332 has exceeded timeout, disconnecting.
+1755150410: Client auto-9D2BFEF3-F6E2-251C-89E3-057F7F917898 disconnected.
+1755150417: New connection from 172.31.0.1:34990 on port 1883.
+1755150417: New client connected from 172.31.0.1:34990 as auto-7312985F-2C99-0792-CA35-9EC3BFB60913 (p2, c1, k60).
+1755150497: Client auto-7312985F-2C99-0792-CA35-9EC3BFB60913 disconnected.
+1755150500: New connection from 172.31.0.1:33028 on port 1883.
+1755150500: New client connected from 172.31.0.1:33028 as auto-5970EECB-E46D-B015-BC1C-7596C21B3F27 (p2, c1, k60).
+1755150525: Client auto-5970EECB-E46D-B015-BC1C-7596C21B3F27 disconnected.
+1755150527: New connection from 172.31.0.1:47724 on port 1883.
+1755150527: New client connected from 172.31.0.1:47724 as auto-E0984525-394C-95B7-119F-BC53B91296EF (p2, c1, k60).
+1755150541: Client auto-E0984525-394C-95B7-119F-BC53B91296EF disconnected.
+1755150579: New connection from 172.31.0.1:57084 on port 1883.
+1755150579: New client connected from 172.31.0.1:57084 as auto-30F408D3-BA24-9D08-D4D6-99C946D4147D (p2, c1, k60).
+1755150615: Client auto-30F408D3-BA24-9D08-D4D6-99C946D4147D disconnected.
+1755150694: New connection from 172.31.0.1:47566 on port 1883.
+1755150694: New client connected from 172.31.0.1:47566 as auto-34C157A4-6AE4-A925-A98C-090452C8D21B (p2, c1, k60).
+1755150776: Client auto-34C157A4-6AE4-A925-A98C-090452C8D21B disconnected.
+1755150818: New connection from 172.31.0.1:50490 on port 1883.
+1755150818: New connection from 172.31.0.1:48660 on port 1883.
+1755150818: New client connected from 172.31.0.1:50490 as auto-9EE0B744-7671-FB20-3847-D15ED04FE06D (p2, c1, k60).
+1755150818: New client connected from 172.31.0.1:48660 as auto-3137D1D4-8FFD-0836-8648-CE6B3C48958D (p2, c1, k60).
+1755150818: Client auto-9EE0B744-7671-FB20-3847-D15ED04FE06D closed its connection.
+1755150822: Client auto-3137D1D4-8FFD-0836-8648-CE6B3C48958D disconnected.
+1755150823: New connection from 172.31.0.1:48676 on port 1883.
+1755150823: New client connected from 172.31.0.1:48676 as auto-EEEBF00C-4061-ABF0-AF5D-F030129988F7 (p2, c1, k60).
+1755150874: Client auto-EEEBF00C-4061-ABF0-AF5D-F030129988F7 disconnected.
+1755150880: New connection from 172.31.0.1:49874 on port 1883.
+1755150880: New client connected from 172.31.0.1:49874 as auto-A9F2CFC8-C435-A56A-C0A9-04BC89546B74 (p2, c1, k60).
+1755150907: Client auto-A9F2CFC8-C435-A56A-C0A9-04BC89546B74 disconnected.
+1755150912: New connection from 172.31.0.1:42838 on port 1883.
+1755150912: New client connected from 172.31.0.1:42838 as auto-A4D07C13-1ED4-0152-5F7C-B68413FED339 (p2, c1, k60).
+1755150916: Client auto-A4D07C13-1ED4-0152-5F7C-B68413FED339 disconnected.
+1755151115: New connection from 172.31.0.1:46906 on port 1883.
+1755151115: New client connected from 172.31.0.1:46906 as auto-0C612CBF-750C-A641-6C29-1AA71E296116 (p2, c1, k60).
+1755151119: Client auto-0C612CBF-750C-A641-6C29-1AA71E296116 disconnected.
+1755151132: New connection from 172.31.0.1:44182 on port 1883.
+1755151132: New client connected from 172.31.0.1:44182 as auto-CAFA077C-18B7-E2B7-0BF6-F4FF3F0DC94D (p2, c1, k60).
+1755151530: New connection from 172.31.0.1:48954 on port 1883.
+1755151530: New client connected from 172.31.0.1:48954 as auto-889EFD0E-7976-F25B-B449-B3116567414F (p2, c1, k60).
+1755151556: New connection from 172.31.0.1:42330 on port 1883.
+1755151556: New client connected from 172.31.0.1:42330 as auto-2E29ECD8-A1A1-7656-EFD4-12E548B3DDD2 (p2, c1, k60).
+1755151733: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755151733: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755151733: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755151733: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755152020: Client auto-2E29ECD8-A1A1-7656-EFD4-12E548B3DDD2 disconnected.
+1755152108: Client auto-CAFA077C-18B7-E2B7-0BF6-F4FF3F0DC94D disconnected.
+1755152118: New connection from 172.31.0.1:44642 on port 1883.
+1755152118: New client connected from 172.31.0.1:44642 as auto-5AAF5E64-54DB-A649-B4BC-65AFFCDE3DCD (p2, c1, k60).
+1755152128: Client auto-889EFD0E-7976-F25B-B449-B3116567414F closed its connection.
+1755152130: Client auto-5AAF5E64-54DB-A649-B4BC-65AFFCDE3DCD disconnected.
+1755152133: New connection from 172.31.0.1:36048 on port 1883.
+1755152133: New client connected from 172.31.0.1:36048 as auto-A8F35626-C8EA-B458-5A67-1BAC47E564B0 (p2, c1, k60).
+1755152140: Client auto-A8F35626-C8EA-B458-5A67-1BAC47E564B0 disconnected.
+1755152143: New connection from 172.31.0.1:33586 on port 1883.
+1755152143: New client connected from 172.31.0.1:33586 as auto-4E502FC4-21A4-BDF3-7FC3-F534F4E21B5E (p2, c1, k60).
+1755152151: Client auto-4E502FC4-21A4-BDF3-7FC3-F534F4E21B5E disconnected.
+1755152158: New connection from 172.31.0.1:35348 on port 1883.
+1755152158: New client connected from 172.31.0.1:35348 as auto-E740FBAF-B29C-6EA8-DD9E-F5CF13E181DF (p2, c1, k60).
+1755152193: Client auto-E740FBAF-B29C-6EA8-DD9E-F5CF13E181DF disconnected.
+1755152215: New connection from 172.31.0.1:51884 on port 1883.
+1755152215: New client connected from 172.31.0.1:51884 as auto-B6CE723E-67E7-BB0F-0605-2190E093A7E0 (p2, c1, k60).
+1755152312: Client auto-B6CE723E-67E7-BB0F-0605-2190E093A7E0 disconnected.
+1755152426: New connection from 172.31.0.1:48964 on port 1883.
+1755152426: New client connected from 172.31.0.1:48964 as auto-7AAE34F8-86F3-BBD2-71E9-1891B6F83142 (p2, c1, k60).
+1755153908: mosquitto version 2.0.22 starting
+1755153908: Config loaded from /mosquitto/config/mosquitto.conf.
+1755153908: Opening ipv4 listen socket on port 1883.
+1755153908: Opening ipv6 listen socket on port 1883.
+1755153908: Opening websockets listen socket on port 9001.
+1755153908: mosquitto version 2.0.22 running
+1755153975: New connection from 172.31.0.7:37905 on port 1883.
+1755153975: New client connected from 172.31.0.7:37905 as MQTTKafkaBridge (p2, c1, k60).
+1755155717: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755155717: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755155717: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755155717: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755155776: New connection from 172.31.0.1:55680 on port 1883.
+1755155776: New connection from 172.31.0.1:55664 on port 1883.
+1755155776: New client connected from 172.31.0.1:55680 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755155776: Client <unknown> closed its connection.
+1755155805: New connection from 172.31.0.1:39112 on port 1883.
+1755155805: New client connected from 172.31.0.1:39112 as auto-872348C3-DE84-7453-B380-8B32DE057C31 (p2, c1, k60).
+1755156887: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755156984: New connection from 172.31.0.1:44392 on port 1883.
+1755156984: Client <unknown> closed its connection.
+1755156984: New connection from 172.31.0.1:44408 on port 1883.
+1755156984: New client connected from 172.31.0.1:44408 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755157133: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755157528: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755157528: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755157528: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755157528: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755157820: New connection from 172.31.0.1:39524 on port 1883.
+1755157820: Client <unknown> closed its connection.
+1755157820: New connection from 172.31.0.1:39534 on port 1883.
+1755157820: New client connected from 172.31.0.1:39534 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755158104: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755158243: New connection from 172.31.0.1:32990 on port 1883.
+1755158243: Client <unknown> closed its connection.
+1755158243: New connection from 172.31.0.1:33004 on port 1883.
+1755158243: New client connected from 172.31.0.1:33004 as esp32-lab-01-6c1c4278 (p2, c1, k15).
+1755158666: Client esp32-lab-01-6c1c4278 has exceeded timeout, disconnecting.
+1755158860: Client auto-872348C3-DE84-7453-B380-8B32DE057C31 closed its connection.
+1755250797: mosquitto version 2.0.22 starting
+1755250797: Config loaded from /mosquitto/config/mosquitto.conf.
+1755250797: Opening ipv4 listen socket on port 1883.
+1755250797: Opening ipv6 listen socket on port 1883.
+1755250797: Opening websockets listen socket on port 9001.
+1755250797: mosquitto version 2.0.22 running
+1755250902: New connection from 172.31.0.1:54436 on port 1883.
+1755250902: New client connected from 172.31.0.1:54436 as auto-16295EDB-BC95-8051-ADF8-CF7C83F2AD09 (p2, c1, k60).
+1755251024: Client auto-16295EDB-BC95-8051-ADF8-CF7C83F2AD09 disconnected.
+1755251043: New connection from 172.31.0.5:42065 on port 1883.
+1755251043: New client connected from 172.31.0.5:42065 as MQTTKafkaBridge (p2, c1, k60).
+1755251176: Client MQTTKafkaBridge closed its connection.
+1755251177: mosquitto version 2.0.22 terminating
+1755251177: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755251177: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755251177: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755251177: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755251420: mosquitto version 2.0.22 starting
+1755251420: Config loaded from /mosquitto/config/mosquitto.conf.
+1755251420: Opening ipv4 listen socket on port 1883.
+1755251420: Opening ipv6 listen socket on port 1883.
+1755251420: Opening websockets listen socket on port 9001.
+1755251420: mosquitto version 2.0.22 running
+1755251428: New connection from 172.18.0.6:39399 on port 1883.
+1755251428: New client connected from 172.18.0.6:39399 as MQTTKafkaBridge (p2, c1, k60).
+1755251519: Client MQTTKafkaBridge closed its connection.
+1755251519: mosquitto version 2.0.22 terminating
+1755251519: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755251519: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755251519: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755251519: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755255895: mosquitto version 2.0.22 starting
+1755255895: Config loaded from /mosquitto/config/mosquitto.conf.
+1755255895: Opening ipv4 listen socket on port 1883.
+1755255895: Opening ipv6 listen socket on port 1883.
+1755255895: Opening websockets listen socket on port 9001.
+1755255895: mosquitto version 2.0.22 running
+1755255904: New connection from 172.19.0.6:53565 on port 1883.
+1755255904: New client connected from 172.19.0.6:53565 as MQTTKafkaBridge (p2, c1, k60).
+1755255970: Client MQTTKafkaBridge closed its connection.
+1755255970: mosquitto version 2.0.22 terminating
+1755255970: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755255970: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755255970: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755255970: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755255977: mosquitto version 2.0.22 starting
+1755255977: Config loaded from /mosquitto/config/mosquitto.conf.
+1755255977: Opening ipv4 listen socket on port 1883.
+1755255977: Opening ipv6 listen socket on port 1883.
+1755255977: Opening websockets listen socket on port 9001.
+1755255977: mosquitto version 2.0.22 running
+1755255983: New connection from 172.20.0.6:60803 on port 1883.
+1755255983: New client connected from 172.20.0.6:60803 as MQTTKafkaBridge (p2, c1, k60).
+1755256032: New connection from 172.20.0.1:33566 on port 1883.
+1755256032: New client connected from 172.20.0.1:33566 as auto-087D3AC2-477E-D588-A1BA-BB4EB9CBC741 (p2, c1, k60).
+1755256084: Client auto-087D3AC2-477E-D588-A1BA-BB4EB9CBC741 disconnected.
+1755257851: New connection from 172.20.0.1:50306 on port 1883.
+1755257851: New client connected from 172.20.0.1:50306 as auto-3AA8E7F6-1A5B-F600-15D3-09CEE3D8DD4B (p2, c1, k60).
+1755257870: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755257870: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755257870: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755257870: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755257946: Client auto-3AA8E7F6-1A5B-F600-15D3-09CEE3D8DD4B disconnected.
+1755257966: Client MQTTKafkaBridge closed its connection.
+1755257966: mosquitto version 2.0.22 terminating
+1755257966: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755257966: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755257966: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755257966: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755257985: mosquitto version 2.0.22 starting
+1755257985: Config loaded from /mosquitto/config/mosquitto.conf.
+1755257985: Opening ipv4 listen socket on port 1883.
+1755257985: Opening ipv6 listen socket on port 1883.
+1755257985: Opening websockets listen socket on port 9001.
+1755257985: mosquitto version 2.0.22 running
+1755257994: New connection from 172.21.0.6:59363 on port 1883.
+1755257994: New client connected from 172.21.0.6:59363 as MQTTKafkaBridge (p2, c1, k60).
+1755258896: Client MQTTKafkaBridge closed its connection.
+1755258896: mosquitto version 2.0.22 terminating
+1755258896: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755258896: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755258896: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755258896: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1755258910: mosquitto version 2.0.22 starting
+1755258910: Config loaded from /mosquitto/config/mosquitto.conf.
+1755258910: Opening ipv4 listen socket on port 1883.
+1755258910: Opening ipv6 listen socket on port 1883.
+1755258910: Opening websockets listen socket on port 9001.
+1755258910: mosquitto version 2.0.22 running
+1755258918: New connection from 172.22.0.6:34105 on port 1883.
+1755258918: New client connected from 172.22.0.6:34105 as MQTTKafkaBridge (p2, c1, k60).
+1755258984: Client MQTTKafkaBridge closed its connection.
+1755258984: mosquitto version 2.0.22 terminating
+1755258984: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1755258984: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1755258984: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1755258984: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.

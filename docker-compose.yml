@@ -54,11 +54,12 @@ services:
       - influxdb-data:/var/lib/influxdb2
     environment:
       DOCKER_INFLUXDB_INIT_MODE: setup
-      DOCKER_INFLUXDB_INIT_USERNAME: pasindupremasirilk@gmail.com
-      DOCKER_INFLUXDB_INIT_PASSWORD: Emrit123#
+      DOCKER_INFLUXDB_INIT_USERNAME: "Pasindu Bimsara"
+      DOCKER_INFLUXDB_INIT_PASSWORD: abcdefgh
       DOCKER_INFLUXDB_INIT_ORG: Ruhuna_Eng
-      DOCKER_INFLUXDB_INIT_BUCKET: Sensor
-      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: -pi9FAAHD7gjxwQ5DfT1PVop0K3KBVUvoXZFQlJSMP_WMH2icU645gKKYu6P8I8wpg4Flm6WO4KKziaEr4iKYg==
+      DOCKER_INFLUXDB_INIT_BUCKET: New_Sensor
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: GO7pQ79-Vo-k6uwpQrMmJmITzLRHxyrFbFDrnRbz8PgZbLHKe5hpwNZCWi6Z_zolPRjn7jUQ6irQk-BPe3LK9Q==
+
     restart: unless-stopped
 
   spark:
@@ -68,7 +69,10 @@ services:
       - kafka
       - influxdb
     environment:
-      INFLUXDB_TOKEN: "-pi9FAAHD7gjxwQ5DfT1PVop0K3KBVUvoXZFQlJSMP_WMH2icU645gKKYu6P8I8wpg4Flm6WO4KKziaEr4iKYg=="
+      INFLUX_URL: http://influxdb:8086
+      INFLUX_ORG: Ruhuna_Eng
+      INFLUX_BUCKET: New_Sensor
+      INFLUX_TOKEN: GO7pQ79-Vo-k6uwpQrMmJmITzLRHxyrFbFDrnRbz8PgZbLHKe5hpwNZCWi6Z_zolPRjn7jUQ6irQk-BPe3LK9Q==
     volumes:
       - ./spark-app:/app
     ports:
